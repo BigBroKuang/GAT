@@ -1,2 +1,2 @@
 # GAT
-Implementation of GAT layer with batch operation
+Implementation of GAT with batch operation
