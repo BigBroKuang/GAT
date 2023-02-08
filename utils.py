@@ -16,10 +16,7 @@ def load_h5(filepath=None,normalize=True):
     if normalize:
         #XTmat = np.array(file['metadata']['crosstalk_mat'])
         #print(XTmat.shape)
-        XTmat = np.array([[ 1.04654975, -0.0840663 ,  0.02533226, -0.14064648],
-            [-0.57732318,  1.04713325, -0.04130868,  0.02028682],
-            [ 0.01037201, -0.02026268,  1.09569202, -0.31071656],
-            [-0.00245064,  0.00192372, -0.33485673,  1.09514074]])
+        XTmat = #hide
 
         df_feats = np.dot(df_feats, XTmat.T)
     # ## dye normalization
