@@ -32,6 +32,9 @@ class neigh_atten(nn.Module):
         Wh2 =Wh1 - Wh2# torch.mul(e, Wh2)
         #torch.cat([Wh1, Wh2], dim=1)
         return Wh2 
+    def attention_mechenism(self,Wh1, Wh2):
+	pass
+	#this part is deleted intentionally
         
     
 class model(nn.Module):
